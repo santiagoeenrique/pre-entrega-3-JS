@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Frutas</title>
-    <link rel="stylesheet" href="css/style.css" type="Text/Css">
+    <link rel="stylesheet" href="../css/style.css" type="Text/Css">
 </head>
 <body>
     <header>
@@ -12,7 +12,7 @@
 
         <ul>
             <li>
-                <a href="pages/carrito.html">carrito</a>
+                <a href="../index.html">Inicio</a>
             </li>
         </ul>
     </header>
@@ -22,9 +22,16 @@
                 <div id="contenido-productos"></div>
         </section>
 
+        <section class="carrito">
+            <h1>Carrito de compras:</h1>
+
+            <div id="contenido-carrito">
+                <p>El carrito se encuentra vacio, por favor agrega productos</p>
+            </div>
+            <p id="precio-total-carrito">Precio total: $0</p>
+        </section>
     </main>
 
-    <script src="js/productos.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/carrito.js"></script>
 </body>
 </html>
